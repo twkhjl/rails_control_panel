@@ -15,4 +15,9 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
+
+// https://github.com/rails/webpacker
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 console.log('Hello World from Webpacker')
